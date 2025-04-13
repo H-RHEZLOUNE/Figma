@@ -1,0 +1,1157 @@
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.Partie1_BleuCiel{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(14, 186, 230, 0.993);
+}
+/*----------------------------------------------------------*/
+.Premier_Partie{
+    margin-left: 10%;
+    width: 90%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 1 */
+
+.Partie_Logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* 2 */
+.Partie_Ecriture{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    gap: 6%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.Partie_Ecriture b{
+    cursor: pointer;
+}
+
+.Ecriture_Angle_Down{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    cursor: pointer;
+}
+
+.Ecriture_Angle_Down img{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.Utiliser{
+    background: linear-gradient(to right, #61a5e4, #2e3e97);
+    border-radius: 8%;
+    padding: 1% 5% 1% 5%;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------*/
+
+.Deuxieme_Partie{
+    height: 86%;
+    width: 100%; 
+    display: flex;
+}
+
+/* 1 */
+
+.Partie_Gauche_BleuCiel{
+    width: 50%;
+    height: 100%;
+}
+
+.P1{
+    margin-top: 10%;
+    height: 40%;
+    margin-left: 19%;
+}
+
+.P1 p{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.P2{
+    height: 20%;
+    width: 65%;
+    margin-left: 19%;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.P3{
+    margin-top: -4%;
+    height: 10%;
+    width: 70%;
+    margin-left: 19%;
+    display: flex;
+}
+
+.Partie_Gauche_P3{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(26, 185, 248);
+    justify-content: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Partie_Droite_P3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 4%;
+    cursor: pointer;
+}
+
+/* 2 */
+
+.Partie_Droite_BleuCiel{
+    width: 50%;
+    height: 100%;
+}
+
+.Partie_Droite_BleuCiel img{
+    width: 126.5%;
+    height: 140%;
+    margin-top: 4%;
+    margin-left: -26.5%;
+}
+
+
+/*----------------------------------------------------------*/
+
+.Premier_Partie_blanc{
+    width: 100%;
+    height: 1300px;
+}
+
+/* 1 */
+
+.Part1{
+    height: 10%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Part1 img{
+    width: 14%;
+}
+
+/* 2 */
+
+.Part2{
+    margin-top: 5%;
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+
+.Part_Img{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin-left: 10%;
+}
+
+.Part_Img img{
+    position: absolute;
+}
+
+
+.Part2_Ecriture{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+}
+
+.Part2_Ecriture_1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #034D82;
+    margin-bottom: 0px;
+}
+
+.Part2_Ecriture_2{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+    font-size:16px ;
+    line-height: 160%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Part2_Ecriture_3{
+    display: flex;
+    color: #04AADD;
+    align-items: center;
+    gap: 1%;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 3 */
+
+.Part3{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    margin-top: -8%;
+}
+
+.Part3_Ecriture{
+    width: 40%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.Part3_Img{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Part3_Img img{
+    width: 750px;
+    height: 530px;
+}
+
+.Part3_Ecriture h1{
+    color: #034D82;
+    font-size: 40px;
+}
+
+.Part3_Ecriture p{
+    color: #90A3B4;
+    line-height: 30px;
+}
+
+.Icone_Ecriture{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: #90A3B4;
+    font-size: 16px;
+    margin-bottom: -5%;
+}
+
+.Icone_Ecriture img{
+    width: 4%;
+    height: 4%;
+}
+
+.Dernier_Icone_Ecriture{
+    display: flex;
+    gap: 2%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.Dernier_Icone_Ecriture img{
+    width: 5%;
+    height: 4%;
+}
+
+.Dernier_Icone_Ecriture p{
+    color: #04AADD;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------------------*/
+
+.Deuxieme_Partie_BleuCiel{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(219, 241, 248);
+}
+
+/* 1 */
+
+.Deuxieme_Partie_BleuCiel_Part1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deuxieme_Partie_BleuCiel_Part1 h1{
+    color:#034D82 ;
+    font-size: 36px;
+}
+
+.Deuxieme_Partie_BleuCiel_Part1 p{
+    color: #8EA9C1;
+    margin-bottom: -1%;
+    font-size: 16px;
+}
+
+/* 2 */
+
+.Deuxieme_Partie_BleuCiel_Part2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.care{
+    height: 65%;
+    width: 14%;
+    background-color: white;
+    border-radius: 2%;
+    padding: 2%;
+}
+
+.care h4{
+    color: #034D82;
+    font-size: 20px;
+}
+
+.care p{
+    color: #8EA9C1;
+    font-size: 15px;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+.Deuxieme_Partie_Blanc{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* 1 */
+
+.Deuxieme_Partie_Blanc_Partie_Gauche{
+    width: 35%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Deuxieme_Partie_Blanc_Partie_Gauche h1{
+    color: #034D82;
+    font-size: 36px;
+}
+
+.Deuxieme_Partie_Blanc_Partie_Gauche p{
+    color: #90A3B4;
+    font-size: 16px;
+}
+/* 2 */
+
+
+.Deuxieme_Partie_Blanc_Partie_Droite{
+    width: 40%;
+    height: 80%;
+    margin-top: 4%;
+}
+
+.Partie_Droite_Ecriture{
+    color: #90A3B4;
+    font-size: 16px;
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.Deuxieme_Partie_Blanc_Partie_Droite_Icone_Ecriture_Avant{
+    width : 4% ;
+    height : 4%;
+    margin-top: 4%;
+    margin-left: -18%;
+    margin-right: 10%;
+}
+
+.Deuxieme_Partie_Blanc_Partie_Droite_Icone_Ecriture{
+    display: flex;
+    margin-left: 11%;
+    gap: 3%;
+}
+
+.Ecriture_Photo{
+    height: 12%;
+}
+
+.Ecriture_Photo h4{
+    margin-top: 0px;
+    color: #034D82;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Ecriture_Photo p{
+    margin-top: -8%;
+    color: #90A3B4;
+    font-size: 14px;
+}
+
+.Deuxieme_Partie_Blanc_Partie_Droite_Icone_Ecriture_Apres{
+    width : 25% ;
+    height : 25%;
+    margin-top: -6%;
+}
+
+.Partie_Cercle{
+    margin-top: 2%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    gap: 2%;
+    margin-left: 10%;
+}
+
+.Cercle{
+    width: 3.5%;
+    height: 5%;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:#E2ECF4 ;
+}
+
+.C_Utiliser{
+    background-color: #034D82 ;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+.Troisieme_Partie_BleuCiel{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cadre{
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(to right, #24CEED, #01B8D9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 1 */
+
+
+.Partie_Gauche_Cadre{
+    width: 35%;
+    height: 80%;
+    margin-left: -6%;
+    color: white;
+}
+
+.Partie_Gauche_Cadre h1{
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.Partie_Gauche_Cadre p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.Partie_Gauche_Cadre_Icone_Ecriture{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    margin-top: -4%;
+    
+}
+
+.Partie_Gauche_Cadre_Icone_Ecriture h6{
+    font-size: 14px;
+}
+
+.Partie_Gauche_Cadre_Icone_Ecriture img{
+    width: 35%;
+    height: 35%;
+}
+
+/* 2 */
+
+.Partie_Droite_Cadre{
+    width: 30%;
+    height: 80%;
+    margin-right: -6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cadre_Partie_Droite_Cadre{
+    width: 80%;
+    height: 20%;
+    background-color: white;
+    color: #00B8D9;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------------*/
+
+.Partie_Noir{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+/* 1 */
+
+.Premier_Partie_Noir{
+    height: 65%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Care1_Premier_Partie_Noir{
+    height: 80%;
+    width: 22%;
+}
+
+.Care1_Premier_Partie_Noir p{
+    font-size: 16px;
+    color: #D3D6D8;
+    font-weight: lighter;
+}
+
+.Logo_Care1 img{
+    cursor: pointer;
+}
+
+.Toutes_Care_Premier_Partie_Noir{
+    height: 80%;
+    width: 16%;
+}
+
+.Toutes_Care_Premier_Partie_Noir h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+.Toutes_Care_Premier_Partie_Noir h4{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #D3D6D8;
+}
+
+/* 2 */
+
+.Deuxieme_Partie_Noir{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Deuxieme_Partie_Noir img{
+    width: 4%;
+    height: 42%;
+}
+
+.Deuxieme_Partie_Noir p{
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+
+
+/* Format Telephone */
+
+@media screen and (max-width:390px) {
+
+    .Partie1_BleuCiel{
+        width: 100%;
+        height: 900px;
+        background-color: rgba(14, 186, 230, 0.993);
+    }
+
+    .Premier_Partie{
+        margin-left: 10%;
+        width: 80%;
+        height: 14%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .Deuxieme_Partie{
+        height: 86%;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Partie_Gauche_BleuCiel{
+        width: 100%;
+    }
+    
+    .P1{
+        margin-top: 10%;
+        margin-left: 19%;
+    }
+    
+    .P1 p{
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        margin: 0px;
+    }
+    
+    .P2{
+        width: 65%;
+        margin-left: 19%;
+        font-size: 15px;
+        margin-bottom: 10%;
+        color: white;
+    }
+    
+    .P3{
+       
+        height: 10%;
+        width: 70%;
+        margin-left: 19%;
+        display: flex;
+        gap: 4%;
+    }
+    
+    .Partie_Droite_BleuCiel{
+        width: 80%;
+  
+    }
+    
+    .Partie_Droite_BleuCiel img{
+        width: 126.5%;
+        height: 140%;
+        margin-top: -20%;
+        position: relative;
+        margin-left: -15%;
+    }
+
+    .Premier_Partie_blanc{
+        width: 100%;
+        height: 1100px;
+    }
+
+    /* 1 */
+
+    .Part1{
+        height: 3%;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Part1 img{
+        width: 14%;
+    }
+
+    /* 2 */
+
+    .Part2{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Part_Img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .Part_Img img{
+        width: 50%;
+        height: 80%;
+        margin-left: 15%;
+    }
+
+    .Part_Img img{
+        position: absolute;
+    }
+
+
+    .Part2_Ecriture{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Part2_Ecriture_1{
+        font-family: "DM Sans", sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #034D82;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: -9%;
+        margin-left: 15%;
+    }  
+
+    .Part2_Ecriture_2{
+        font-family: "DM Sans", sans-serif;
+        color: #90A3B4;
+        font-size:10px ;
+        line-height: 160%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+         margin-left: 15%;
+    }
+
+    .Part2_Ecriture_3{
+        display: flex;
+        color: #04AADD;
+        align-items: center;
+        gap: 1%;
+        font-weight: bold;
+        font-size: 10px;
+        cursor: pointer;
+        margin-left: 15%;
+    }
+
+    /* 3 */
+
+    .Part3{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 16%;
+    }
+
+    .Part3_Ecriture{
+        width: 80%;
+        height: 100%;   
+    }
+
+    .Part3_Img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .Part3_Img img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Part3_Ecriture h1{
+        color: #034D82;
+        font-size: 22px;
+        margin-left: 14%;
+    }
+
+    .Part3_Ecriture p{
+        color: #90A3B4;
+        line-height: 20px;
+        margin-left: 14%;
+        font-size: 10px;
+    }
+
+    .Icone_Ecriture{
+        display: flex;
+        align-items: center;
+        gap: 1%;
+        color: #90A3B4;
+        font-size: 10px;
+        margin-bottom: -5%;
+        margin-left: 14%;
+    }
+
+    .Icone_Ecriture img{
+        width: 4%;
+        height: 4%;
+    }
+
+    .Dernier_Icone_Ecriture{
+        display: flex;
+        gap: 2%;
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .Dernier_Icone_Ecriture img{
+        width: 5%;
+        height: 4%;
+    }
+
+    .Dernier_Icone_Ecriture p{
+        color: #04AADD;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .Deuxieme_Partie_BleuCiel{
+        width: 100%;
+        height: 850px;
+        background-color: rgb(219, 241, 248);
+    }
+    
+    /* 1 */
+    
+    .Deuxieme_Partie_BleuCiel_Part1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -40%;
+    }
+    
+    .Deuxieme_Partie_BleuCiel_Part1 h1{
+        color:#034D82 ;
+        font-size: 20px;
+        margin-top: -50%;
+    }
+    
+    .Deuxieme_Partie_BleuCiel_Part1 p{
+        color: #8EA9C1;
+        margin-bottom: -1%;
+        font-size: 10px;
+    }
+    
+    /* 2 */
+    
+    .Deuxieme_Partie_BleuCiel_Part2{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    
+    .care{
+        height: 50%;
+        width: 50%;
+        background-color: white;
+        border-radius: 2%;
+        padding: 2%;
+        margin-top: -8%;
+    }
+    
+    .care h4{
+        color: #034D82;
+        font-size: 16px;
+    }
+    
+    .care p{
+        color: #8EA9C1;
+        font-size: 10px;
+    }
+
+    .care img{
+        width: 18%;
+    }
+
+    .Deuxieme_Partie_Blanc{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10%;
+    }
+    
+    /* 1 */
+    
+    .Deuxieme_Partie_Blanc_Partie_Gauche{
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Deuxieme_Partie_Blanc_Partie_Gauche h1{
+        color: #034D82;
+        font-size: 20px;
+    }
+    
+    .Deuxieme_Partie_Blanc_Partie_Gauche p{
+        color: #90A3B4;
+        font-size: 10px;
+    }
+    /* 2 */
+    
+    
+    .Deuxieme_Partie_Blanc_Partie_Droite{
+        width: 80%;
+        height: 50%;
+        margin-top: 4%;
+    }
+
+    .Partie_Droite_Ecriture{
+        color: #90A3B4;
+        font-size: 10px;
+        margin-left: 11%;
+        margin-top: 4%;
+        margin-bottom: 8%;
+    }
+
+    .imgBD{
+        width: 10%;
+    }
+    
+    .Deuxieme_Partie_Blanc_Partie_Droite_Icone_Ecriture_Avant{
+        width : 4% ;
+        height : 4%;
+        margin-top: 4%;
+        margin-left: -18%;
+        margin-right: 10%;
+    }
+    
+    .Deuxieme_Partie_Blanc_Partie_Droite_Icone_Ecriture{
+        display: flex;
+        margin-left: 11%;
+        gap: 3%;
+    }
+    
+    .Ecriture_Photo{
+        height: 12%;
+    }
+    
+    .Ecriture_Photo h4{
+        margin-top: 0px;
+        color: #034D82;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .Ecriture_Photo p{
+        margin-top: -8%;
+        color: #90A3B4;
+        font-size: 10px;
+    }
+    
+    .Troisieme_Partie_BleuCiel{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Cadre{
+        width: 80%;
+        height: 90%;
+        background: linear-gradient(to right, #24CEED, #01B8D9);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    /* 1 */
+    
+    
+    .Partie_Gauche_Cadre{
+        width: 60%;
+        height: 80%;
+        margin-left: -6%;
+        color: white;
+        margin-left: 1%;
+    }
+    
+    .Partie_Gauche_Cadre h1{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+    .Partie_Gauche_Cadre p{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    
+    .Partie_Gauche_Cadre_Icone_Ecriture{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        margin-top: -4%;
+        
+    }
+    
+    .Partie_Gauche_Cadre_Icone_Ecriture h6{
+        font-size: 8px;
+    }
+    
+    .Partie_Gauche_Cadre_Icone_Ecriture img{
+        width: 35%;
+        height: 35%;
+    }
+    
+    /* 2 */
+    
+    .Partie_Droite_Cadre{
+        width: 30%;
+        height: 80%;
+        margin-right: -6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Cadre_Partie_Droite_Cadre{
+        width: 80%;
+        height: 20%;
+        background-color: white;
+        color: #00B8D9;
+        font-size: 8px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+
+
+
+
+    .Partie_Noir{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+    
+    /* 1 */
+    
+    .Premier_Partie_Noir{
+        height: 65%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .Care1_Premier_Partie_Noir{
+        height: 80%;
+        width: 22%;
+    }
+    
+    .Care1_Premier_Partie_Noir p{
+        font-size: 8px;
+        color: #D3D6D8;
+        font-weight: lighter;
+    }
+    
+    .Logo_Care1 img{
+        width: 20%;
+        cursor: pointer;
+    }
+    
+    .Toutes_Care_Premier_Partie_Noir{
+        height: 80%;
+        width: 16%;
+    }
+    
+    .Toutes_Care_Premier_Partie_Noir h4{
+        font-size: 8px;
+        font-weight: bold;
+        margin-top: 0px;
+    
+    }
+    
+    .Toutes_Care_Premier_Partie_Noir p{
+        font-size: 8px;
+        font-weight: lighter;
+        color: #D3D6D8;
+    }
+    
+    /* 2 */
+    
+    .Deuxieme_Partie_Noir{
+        height: 20%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Deuxieme_Partie_Noir img{
+        width: 12%;
+        height: 35%;
+    }
+    
+    .Deuxieme_Partie_Noir p{
+        font-size: 8px;
+        margin-top: 0px;
+    }
+}
